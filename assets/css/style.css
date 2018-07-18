@@ -556,8 +556,8 @@ li {
     top: -40px;
     height: 22px;
     width: 22px;
-    border-top: solid 4px #FFF;
-    border-left: solid 4px #FFF;
+    border-top: solid 0px #000000;
+    border-left: solid 0px #000000;
 }
 
 .welcome .quote:after {
@@ -567,8 +567,8 @@ li {
     bottom: -18px;
     height: 22px;
     width: 22px;
-    border-bottom: solid 4px #FFF;
-    border-right: solid 4px #FFF;
+    border-bottom: solid 0px #FFF;
+    border-right: solid 0px #FFF;
 }
 
 .welcome .quote h2 {
@@ -590,7 +590,7 @@ li {
 }
 
 .welcome .overlay {
-    background: rgba(12,12,12,0.65);
+    background: rgba(12,12,12,0);
     height: 100%;
     left: 0;
     top: 0;
