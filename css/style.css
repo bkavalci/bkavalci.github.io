@@ -307,7 +307,7 @@ a.back:hover{
 }
 
 .altababy2 {
-position: fixed;
+position: absolute;
 bottom: 60px;
 text-align: center;
 }
