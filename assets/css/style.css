@@ -1454,7 +1454,7 @@ li {
 }
 
 .pagination a {
-    color: #1a1a1a;
+    color: #000000;
 }
 
 /* === Button === */
@@ -1697,12 +1697,12 @@ li {
 }
 
 .sketches .control ul li a:hover {
-    color: #1a1a1a;
+    color: #000000;
     text-decoration: none;
 }
 
 .sketches .control ul li.active a {
-    color: #1a1a1a;
+    color: #000000;
 }
 
 .sketches .control ul li:last-child {
@@ -1909,12 +1909,12 @@ li {
 }
 
 .gaming .control ul li a:hover {
-    color: #1a1a1a;
+    color: #000000;
     text-decoration: none;
 }
 
 .gaming .control ul li.active a {
-    color: #1a1a1a;
+    color: #000000;
 }
 
 .gaming .control ul li:last-child {
