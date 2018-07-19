@@ -61,7 +61,7 @@ body{
 
 .errorpagephoto {
 		background:url('http://venatordesign.me/assets/images/errorpage.jpg') no-repeat center;
-    background-size: contain;
+    background-size: auto;
     width: 100%;
     height: 100%;
 }
@@ -160,7 +160,7 @@ a.back:hover{
 .altababy2 {
   position: fixed;
   display: block;
-  bottom: 230px;
+  bottom: 170px;
   width: 100%;
   text-align: center;
 }
