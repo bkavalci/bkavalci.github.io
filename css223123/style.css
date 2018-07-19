@@ -4,7 +4,7 @@ body {
 	margin: 0;
 	height: 100vh !important;
 	overflow: hidden;
-	background: #000000;
+	background: #131112;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 body a {
@@ -160,7 +160,7 @@ a.back:hover{
 .altababy2 {
   position: fixed;
   display: block;
-  bottom: 30px;
+  bottom: 230px;
   width: 100%;
   text-align: center;
 }
