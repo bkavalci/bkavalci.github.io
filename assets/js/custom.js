@@ -61,7 +61,6 @@ $(function(){
     $("#welcome").backstretch([
         "http://venatordesign.me/assets/images/mainheader.jpg",
         "http://venatordesign.me/assets/images/mainheader.jpg",
-        // "assets/images/your_pic.jpg"
     ], {duration: 5000, fade: 400});
 
     /*=========================================================================
