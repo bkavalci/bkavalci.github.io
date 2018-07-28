@@ -110,3 +110,29 @@ $(function(){
     });
 
 });
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 630 || document.documentElement.scrollTop > 630) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+function topFunction() {
+  currentYOffset = self.pageYOffset;
+  initYOffset = currentYOffset;
+
+  var intervalId = setInterval(function(){
+  currentYOffset -= initYOffset*0.03;
+  document.body.scrollTop = currentYOffset ;
+  document.documentElement.scrollTop = currentYOffset;
+
+    if(self.pageYOffset == 0){
+      clearInterval(intervalId);
+    }
+  }, 10);
+
+}

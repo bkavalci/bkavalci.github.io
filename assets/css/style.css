@@ -2094,3 +2094,22 @@ li {
     width: 100%;
     height: 100%;
 }
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 5px;
+    right: 180px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+        }
+
+@media screen and (max-width: 640px){
+  #myBtn {
+      right: 5px;
+          }
+}
