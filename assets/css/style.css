@@ -1303,13 +1303,13 @@ li {
 }
 
 /*-----------------------------------------------------------------*/
-/*                      SECTION MOVIES                       */
+/*                      SECTION MOVIES                             */
 /*-----------------------------------------------------------------*/
 .movies .item .thumb {
     border: solid 1px #ECECEC;
     width: 128px;
     height: 128px;
-    overflow: visible;
+    overflow: hidden;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
