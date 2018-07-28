@@ -135,3 +135,7 @@ function topFunction() {
   }, 10);
 
 }
+
+var myLazyLoad = new LazyLoad({
+    elements_selector: ".lazy"
+});
