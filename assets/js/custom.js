@@ -19,6 +19,9 @@ $(function(){
         easing: 'easeInOutCubic'
     });
 
+    $('.menugifitem').freezeframe({'animation_play_duration': 2500})
+
+
     /*=========================================================================
             Portfolio filter
     =========================================================================*/
@@ -133,6 +136,8 @@ function topFunction() {
       clearInterval(intervalId);
     }
   }, 10);
+
+
 
 }
 
