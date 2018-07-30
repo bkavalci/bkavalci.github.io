@@ -660,6 +660,14 @@ li {
     background-size: cover;
 }
 
+@media screen and (max-width: 640px){
+  .gamingheader {
+    background-size: contain;
+    max-width: 100%;
+    height: 142px;
+          }
+}
+
 .gamingheader .fact-item {
     position: relative;
     z-index: 1;
@@ -696,6 +704,14 @@ li {
 .sketchesheader {
     background: url(http://venatordesign.me/assets/images/sketchesheader.jpg) center left no-repeat;
     background-size: cover;
+}
+
+@media screen and (max-width: 640px){
+  .sketchesheader {
+    background-size: contain;
+    max-width: 100%;
+    height: 142px;
+          }
 }
 
 .sketchesheader .fact-item {
@@ -736,6 +752,14 @@ li {
     background-size: cover;
 }
 
+@media screen and (max-width: 640px){
+  .musicsheader {
+    background-size: contain;
+    max-width: 100%;
+    height: 100px;
+          }
+}
+
 .musicsheader .fact-item {
     position: relative;
     z-index: 1;
@@ -774,6 +798,14 @@ li {
     background-size: cover;
 }
 
+@media screen and (max-width: 640px){
+  .moviesheader {
+    background-size: contain;
+    max-width: 100%;
+    height: 142px;
+          }
+}
+
 .moviesheader .fact-item {
     position: relative;
     z-index: 1;
@@ -810,6 +842,14 @@ li {
 .digitalartheader {
     background: url(http://venatordesign.me/assets/images/digital-artwork-header.jpg) center left no-repeat;
     background-size: cover;
+}
+
+@media screen and (max-width: 640px){
+  .digitalartheader {
+    background-size: contain;
+    max-width: 100%;
+    height: 142px;
+          }
 }
 
 .digitalartheader .fact-item {
