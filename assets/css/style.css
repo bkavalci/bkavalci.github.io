@@ -656,7 +656,7 @@ li {
 /*                      SECTION FUN GAMINGHEADER                   */
 /*-----------------------------------------------------------------*/
 .gamingheader {
-    background: url(http://venatordesign.me/assets/images/gamingheader.JPG) center left no-repeat;
+    background: url(..//images/gamingheader.JPG) center left no-repeat;
     background-size: cover;
 }
 
@@ -702,7 +702,7 @@ li {
 /*                      SECTION FUN SKETCHESHEADER                 */
 /*-----------------------------------------------------------------*/
 .sketchesheader {
-    background: url(http://venatordesign.me/assets/images/sketchesheader.jpg) center left no-repeat;
+    background: url(../images/sketchesheader.jpg) center left no-repeat;
     background-size: cover;
 }
 
@@ -748,7 +748,7 @@ li {
 /*                      SECTION FUN MUSICSHEADER                   */
 /*-----------------------------------------------------------------*/
 .musicsheader {
-    background: url(http://venatordesign.me/assets/images/musicsheader.jpg) center left no-repeat;
+    background: url(..//images/musicsheader.jpg) center left no-repeat;
     background-size: cover;
 }
 
@@ -794,7 +794,7 @@ li {
 /*                      SECTION FUN MOVIESHEADER                   */
 /*-----------------------------------------------------------------*/
 .moviesheader {
-    background: url(http://venatordesign.me/assets/images/moviesheader.jpg) center left no-repeat;
+    background: url(..//images/moviesheader.jpg) center left no-repeat;
     background-size: cover;
 }
 
@@ -840,7 +840,7 @@ li {
 /*                      SECTION FUN DIGITAL ART HEADER             */
 /*-----------------------------------------------------------------*/
 .digitalartheader {
-    background: url(http://venatordesign.me/assets/images/digital-artwork-header.jpg) center left no-repeat;
+    background: url(..//images/digital-artwork-header.jpg) center left no-repeat;
     background-size: cover;
 }
 
