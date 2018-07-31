@@ -3,7 +3,7 @@
 =========================================================================*/
 $(window).load(function() {
     "use strict";
-    $(".preloader-outer").delay(350).fadeOut('slow');
+    $(".preloader-outer").css("top","-100%");
 });
 
 $(function(){

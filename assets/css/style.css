@@ -60,6 +60,7 @@ li {
     background: #0C0C0C;
     z-index: 6;
     overflow: hidden;
+    transition: all linear 1s
 }
 
 .preloader {
@@ -1900,6 +1901,20 @@ li {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+
+.itemscaleffect {
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.itemscaleffect:hover {
+-ms-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+
 
 .sketches .item-outer .item:hover .title:before {
     -ms-transform: translate(0px);
