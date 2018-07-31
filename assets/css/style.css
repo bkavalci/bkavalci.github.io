@@ -26,7 +26,7 @@ Author: Venator
 /*-----------------------------------------------------------------*/
 body {
     color: #1a1a1a;
-    background-color: #131212;
+    background-color: #000001;
     font-family: "Roboto Slab",serif;
     overflow-x: hidden;
 }
@@ -60,7 +60,7 @@ li {
     background: #0C0C0C;
     z-index: 6;
     overflow: hidden;
-    transition: all linear 1s
+    transition: all linear 0.5s
 }
 
 .preloader {
@@ -659,6 +659,7 @@ li {
 .gamingheader {
     background: url(..//images/gamingheader.JPG) center left no-repeat;
     background-size: cover;
+    height: 240px;
 }
 
 @media screen and (max-width: 640px){
@@ -705,6 +706,7 @@ li {
 .sketchesheader {
     background: url(../images/sketchesheader.jpg) center left no-repeat;
     background-size: cover;
+    height: 240px;
 }
 
 @media screen and (max-width: 640px){
@@ -751,6 +753,8 @@ li {
 .musicsheader {
     background: url(..//images/musicsheader.jpg) center left no-repeat;
     background-size: cover;
+    height: 220px;
+    max-width: 100%;
 }
 
 @media screen and (max-width: 640px){
@@ -797,6 +801,7 @@ li {
 .moviesheader {
     background: url(..//images/moviesheader.jpg) center left no-repeat;
     background-size: cover;
+    height: 240px;
 }
 
 @media screen and (max-width: 640px){
