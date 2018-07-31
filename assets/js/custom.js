@@ -62,8 +62,8 @@ $(function(){
             Backstretch Background Slider
     =========================================================================*/
     $("#welcome").backstretch([
-        "http://venatordesign.me/assets/images/mainheader.jpg",
-        "http://venatordesign.me/assets/images/mainheader.jpg",
+        "assets/images/mainheader.jpg",
+        "assets/images/mainheader.jpg",
     ], {duration: 5000, fade: 400});
 
     /*=========================================================================
