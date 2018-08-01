@@ -15,7 +15,7 @@ setTimeout(function(){
         "assets/images/mainheader.gif",
     ], {duration: 5000, fade: 400});
 
- }, 1);
+ }, 500);
 
 });
 
