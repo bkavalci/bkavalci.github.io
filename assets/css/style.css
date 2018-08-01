@@ -187,15 +187,12 @@ li {
 }
 
 .emailaddress {
-    background-color: #1a1a1a;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
+    background-color: #101010;
+    padding: 5px;
+    border-radius: 12px;
     display: inline-block;
     text-transform: uppercase;
 }
-
-
 
 .header .avatar img {
     width: 100%;
@@ -2177,4 +2174,9 @@ transform: scale(1.1);
   #myBtn {
       right: 5px;
           }
+}
+
+.emailgifitem {
+  width: 30px;
+  height: 36px;
 }
