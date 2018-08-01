@@ -804,7 +804,7 @@ li {
 /*                      SECTION FUN MOVIESHEADER                   */
 /*-----------------------------------------------------------------*/
 .moviesheader {
-    background: url(..//images/moviesheader.gif) center left no-repeat;
+    background: url(..//images/moviesheader.jpg) center left no-repeat;
     background-size: cover;
     height: 240px;
 }
