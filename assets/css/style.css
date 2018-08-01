@@ -179,7 +179,11 @@ li {
     -moz-border-radius: 0%;
     -ms-border-radius: 0%;
     border-radius: 0%;
-    animation-play-state:running;
+    animation-play-state: paused;
+}
+
+.header .avatar.runForest {
+  animation-play-state: running;
 }
 
 .emailaddress {
@@ -800,7 +804,7 @@ li {
 /*                      SECTION FUN MOVIESHEADER                   */
 /*-----------------------------------------------------------------*/
 .moviesheader {
-    background: url(..//images/moviesheader.jpg) center left no-repeat;
+    background: url(..//images/moviesheader.gif) center left no-repeat;
     background-size: cover;
     height: 240px;
 }

@@ -6,6 +6,17 @@
 $(window).load(function() {
     "use strict";
     $(".preloader-outer").css("top","-100%");
+
+setTimeout(function(){
+
+    $(".avatar").append('<img class="animatedavatar" src="assets/images/venator.gif">');
+    $(".welcomebuilder").append('<img class="animatedavatar" src="assets/images/mainheader.gif">');
+    $("#welcome").backstretch([
+        "assets/images/mainheader.gif",
+    ], {duration: 5000, fade: 400});
+
+ }, 500);
+
 });
 
 $(function(){
@@ -22,6 +33,11 @@ $(function(){
     });
 
     $('.menugifitem').freezeframe({'animation_play_duration': 2500})
+
+    $( "#animatedavatar" ).on( "", function() {
+      alert( $( this ).text() );
+    });
+    $( "#animatedavatar" ).trigger( "preloader-outer" );
     /*=========================================================================
             Portfolio filter
     =========================================================================*/
@@ -62,7 +78,6 @@ $(function(){
             Backstretch Background Slider
     =========================================================================*/
     $("#welcome").backstretch([
-        "assets/images/mainheader.jpg",
         "assets/images/mainheader.jpg",
     ], {duration: 5000, fade: 400});
 
