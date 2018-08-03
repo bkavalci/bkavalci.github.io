@@ -1256,6 +1256,13 @@ li {
     position: absolute;
 }
 
+.designs .item-outer .item .title .inner2 {
+    text-align: center;
+    top: calc(30% - 18px);
+    width: 100%;
+    position: absolute;
+}
+
 .designs .item-outer .item .title h2 {
     font-size: 18px;
     font-weight: 400;
