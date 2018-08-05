@@ -9,10 +9,10 @@ $(window).load(function() {
 
 setTimeout(function(){
 
-    $(".avatar").append('<img class="animatedavatar" src="assets/images/venator.gif">');
-    $(".welcomebuilder").append('<img class="animatedavatar" src="assets/images/mainheader.gif">');
+    $(".avatar").append('<img class="animatedavatar" src="assets/images/animations/venator.gif">');
+    $(".welcomebuilder").append('<img class="animatedavatar" src="assets/images/animations/mainheader.gif">');
     $("#welcome").backstretch([
-        "assets/images/mainheader.gif",
+        "assets/images/animations/mainheader.gif",
     ], {duration: 5000, fade: 400});
 
  }, 500);
