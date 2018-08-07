@@ -159,3 +159,7 @@ function topFunction() {
 var myLazyLoad = new LazyLoad({
     elements_selector: ".lazy"
 });
+
+$("#image").ready(function(){
+      $("#preloadforheaders").fadeIn(1000);
+});
