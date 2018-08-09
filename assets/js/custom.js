@@ -32,7 +32,7 @@ $(function(){
         easing: 'easeInOutCubic'
     });
 
-    $('.menugifitem').freezeframe({'animation_play_duration': 2500})
+    $('.menugifitem').freezeframe({'animation_play_duration': 1800})
 
     $( "#animatedavatar" ).on( "", function() {
       alert( $( this ).text() );
