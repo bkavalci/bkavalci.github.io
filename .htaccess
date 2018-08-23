@@ -1,5 +1,4 @@
 
-Options +FollowSymLinks
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^venatordesign.me [NC]
-RewriteRule ^(.*)$ https://venatordesign.me/$1 [L,R=301]
+RewriteEngine On
+ RewriteCond %{HTTPS} !=on
+ RewriteRule ^.*$ https://venatordesign.me [R,L]
