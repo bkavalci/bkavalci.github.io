@@ -1,4 +1,3 @@
-
 RewriteEngine On
  RewriteCond %{HTTPS} !=on
  RewriteRule ^.*$ https://venatordesign.me [R,L]
