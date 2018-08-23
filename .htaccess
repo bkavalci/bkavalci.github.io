@@ -1,0 +1,5 @@
+
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^venatordesign.me [NC]
+RewriteRule ^(.*)$ https://venatordesign.me/$1 [L,R=301]
