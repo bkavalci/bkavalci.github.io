@@ -159,3 +159,123 @@ function topFunction() {
 var myLazyLoad = new LazyLoad({
     elements_selector: ".lazy"
 });
+
+/////////////////////////////////////////////////////////////////////
+//gaming page button sliders
+/////////////////////////////////////////////////////////////////////
+
+$(function () {
+
+  $("#dota2button").click(function () {
+
+    $('html, body').animate({
+
+      scrollTop:$("#Dota2Div").offset().top
+
+    }, 200);
+
+    return false;
+  });
+});
+
+$(function () {
+
+  $("#csgobutton").click(function () {
+
+    $('html, body').animate({
+
+      scrollTop:$("#csgoDiv").offset().top
+
+    }, 1000);
+
+    return false;
+  });
+});
+
+$(function () {
+
+  $("#armabutton").click(function () {
+
+    $('html, body').animate({
+
+      scrollTop:$("#armaDiv").offset().top
+
+    }, 1000);
+
+    return false;
+  });
+});
+
+$(function () {
+
+  $("#gtabutton").click(function () {
+
+    $('html, body').animate({
+
+      scrollTop:$("#gtaDiv").offset().top
+
+    }, 1000);
+
+    return false;
+  });
+});
+
+$(function () {
+
+  $("#tosbutton").click(function () {
+
+    $('html, body').animate({
+
+      scrollTop:$("#tosDiv").offset().top
+
+    }, 1000);
+
+    return false;
+  });
+});
+
+$(function () {
+
+  $("#aq3dbutton").click(function () {
+
+    $('html, body').animate({
+
+      scrollTop:$("#aq3dDiv").offset().top
+
+    }, 1000);
+
+    return false;
+  });
+});
+
+$(function () {
+
+  $("#twabutton").click(function () {
+
+    $('html, body').animate({
+
+      scrollTop:$("#twaDiv").offset().top
+
+    }, 1000);
+
+    return false;
+  });
+});
+
+$(function () {
+
+  $("#aoe2button").click(function () {
+
+    $('html, body').animate({
+
+      scrollTop:$("#aoe2Div").offset().top
+
+    }, 1000);
+
+    return false;
+  });
+});
+
+/////////////////////////////////////////////
+/////////gaming section sliders end
+/////////////////////////////////////////////
